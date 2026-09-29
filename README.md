@@ -14,8 +14,8 @@ Sometimes we want to hear songs in a specific style, but the band has stopped wr
 |---|---|---|
 | **Pre-trained model** | 3-layer **AWD-LSTM** trained on 100 million tokens of Wikipedia (fastai) | 1-layer **LSTM** trained on a corpus of Nietzsche's writing (Keras) |
 | **Fine-tuning** | Trained on the song-lyrics dataset, freezing and training only certain layers | Trained on the song-lyrics dataset for 40 epochs to retain vocabulary |
-| **Advantage** | Good vocabulary | Lightweight single-layer model |
-| **Drawback** | Still needs a larger amount of training data | Vocabulary not as rich |
+| **Advantage** | Good vocabulary | Learns grammar and sentence structure well |
+| **Drawback** | Still needs a larger amount of training data | Vocabulary not as good as the first model |
 
 **Result.** Both models produced unique text that was not memorized from the corpus. Future work: better grammar and sentence structure, and generating full, well-structured songs.
 
