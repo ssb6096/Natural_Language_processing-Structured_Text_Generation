@@ -36,3 +36,9 @@ All code is in `MachineLearningProject/`:
 ## Context
 
 Project from my M.S. in Electrical Engineering at Rochester Institute of Technology. Also on [Portfolium](https://portfolium.com/entry/natural-language-processing-for-structured-text-ge).
+
+## License
+
+This project is released under the [PolyForm Noncommercial License 1.0.0](LICENSE). You may use, modify and share it for **noncommercial purposes**, including academic research, teaching and personal study. Commercial use needs separate permission from the author.
+
+Required Notice: Copyright (c) 2020 Sriparvathi Shaji Bhattathiri
